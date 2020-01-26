@@ -1,0 +1,355 @@
+* {
+  text-decoration: none;
+}
+
+body {
+  background-color: #f9ccd3;
+}
+
+header {
+background-color: #fff;
+width: 100%;
+height: 100px;
+position: fixed;
+top: 0;
+
+
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  overflow: auto;
+}
+
+#header-img {
+float: left;
+margin-left: 0 auto;
+border: 0;
+padding-top: 13px;
+}
+
+#home {
+  font-family: 'Playfair Display SC', serif;
+  font-size: 25px;
+  font-weight: 700;
+  color: #111;
+  display: block;
+  padding-top: 15px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px 32px 10px;
+  line-height: 20px;
+}
+
+header nav ul {
+  margin: 0 auto;
+  display: block;
+  width: fit-content;
+}
+
+header nav ul li {
+  list-style: none;
+  ;
+  float: left;
+  padding: 0 5px;
+
+}
+
+header nav ul li a {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 9.5px;
+  font-weight: bold;
+  color: #111;
+}
+
+header nav ul li a:hover {
+  color: #f9ccd3;
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+	body {
+  background-color: #f3f3f3;
+}
+
+  #home {
+
+      margin: 31px 0;
+      text-align: center;
+      padding: 0 20px 0 40px;
+      line-height: 40px;
+      float: left;
+      font-size: 30px;
+      
+    }
+
+header nav ul {
+  margin: 20px 0 0 20px;
+  float: right;
+  padding-right: 20px;
+  }
+
+header nav ul li {
+
+}
+
+header nav ul li a {
+  line-height: 60px;
+  font-size: 12px;
+  }
+
+header nav ul li a:hover {
+  color: #e83b35;
+  
+}
+
+}
+
+#hero-banner {
+  width: 100%;
+  height: calc(100vh - 100px);
+  background-image: url('https://i.ibb.co/80bv8JK/home-banner.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: table;
+}
+
+  #hero-banner h2 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 28px;
+    color: #13292a;
+    text-align: center;
+    padding-top: 180px;
+  }
+
+  #hero-banner h1 {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 28px;
+    font-weight: 400;
+    font-style: italic;
+    line-height: 45px;
+    color: #465368;
+    text-align: center;
+    text-shadow: 2px 2px 8px #e83b35;
+
+  }
+
+  .learn-more-button {
+    margin: 0 auto;
+    width: 42%;
+    height: 37px;
+    background-color: #e83b35;
+    border-radius: 25px;
+  
+   
+  }
+
+  .learn-more-button h3 {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+  }
+
+  .newsletter {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 14px;
+  }
+
+  form {
+    width: 350px;
+    text-align: center;
+
+  }
+
+  input {
+    width: 50%;
+  }
+
+#submit {
+  font-family: 'Playfair Display SC', serif;
+  background-color: #fff;
+  color: #e83b35;
+  border-color: #e83b35;
+  font-weight: 900;
+  letter-spacing: 4px;
+  border-radius: 5px;
+}
+
+  .content {
+    background-color: #fff;
+  }
+
+  .content h1{
+    font-family: 'Libre Baskerville', serif;
+    font-style: italic;
+    text-align: center;
+    padding-top: 20px;
+    line-height: 15px;
+  }
+
+  .content p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    line-height: 20px;
+    text-align:center;
+    padding-bottom: 10px;
+  }
+
+  .wrapper div {
+    margin: 10px 10px 0;
+    height: 100px;
+    background-color: #f9ccd3;
+    display: block;
+  }
+
+  .wrapper h3 {
+      font-family: 'Libre Baskerville', serif;
+      font-style: italic;
+      text-align: center;
+    }
+
+      #video {
+        position: relative;
+        padding-bottom: 0%;
+        padding-top: 0px;
+        padding-left: 30px;
+        height: 180px;
+      }
+
+      #video iframe {
+        position: inherit;
+        padding: 0;
+      }
+
+
+@media only screen and (min-width: 1000px) {
+
+  .wrapper {
+      width: 1000px;
+      margin: 0 auto;
+    }
+
+  #hero-banner {
+      height: 768px;
+    }
+
+    #hero-banner h2 {
+       padding-left: 700px;
+       padding-top: 320px;
+       margin: 0;
+      font-size: 35px;
+        }
+#hero-banner h1 {
+padding-left: 700px;
+font-size: 30px;
+  }
+
+.learn-more-button {
+ margin-left: 1150px;
+  width: 10%;
+  height: 30px;
+  background-color: #e83b35;
+  order-radius: 25px;
+  line-height: 50px;
+  padding-bottom: 10px;
+  }
+  
+
+}
+
+@media only screen and (min-width: 1000px) {
+
+  .newsletter {
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+  }
+
+form {
+width: 380px;
+text-align: left;
+padding-left: 725px;
+}
+
+input {
+width: 40%;
+}
+
+  #video {
+    position: relative;
+    padding-bottom: 0%;
+    padding-top: 5px;
+    padding-left: 730px;
+    height: 180px;
+    }
+
+  #video iframe {
+    position: inherit;
+    padding: 0;
+    }
+
+}
+
+
+footer {
+  width: calc(100%-80px);
+  padding: 40px 40px;
+  margin-top: 20px;
+  background-color: #bf7a80;
+  overflow: hidden;
+}
+
+footer ul {
+  width: fit-content;
+  float: left;
+  padding: 20px;
+}
+
+footer ul li {
+  display: block;
+  list-style: none;
+}
+
+footer ul li a {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 14px;
+  color: #fff;
+  line-height: 30px;
+}
+
+.footer-sm {
+  width: 40px;
+  float: right;
+}
+
+.footer-sm img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 1000px) {
+
+  footer ul li {
+    display: inline-flex;
+    padding: 0 30px;
+  }
+
+  .footer-sm {
+    width: 100px;
+    float: right;
+    display: inline-flex;
+  }
+
+  .footer-sm img {
+    width: 70%;
+    padding: 20px 0 60px 15px;
+  }
+
+}
